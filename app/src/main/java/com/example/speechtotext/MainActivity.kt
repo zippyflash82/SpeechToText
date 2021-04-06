@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onBufferReceived(buffer: ByteArray?) {
-                btn_speech.setImageResource(R.drawable.ic_mic_blue)
+               btn_speech.setImageResource(R.drawable.ic_mic_blue)
             }
 
             override fun onEndOfSpeech() {
